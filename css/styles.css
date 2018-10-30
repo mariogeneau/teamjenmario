@@ -1,1 +1,42 @@
 @charset "UTF-8";
+/* =========================== */
+body {
+  margin: 0;
+  padding: 0;
+}
+/* =========================== */
+.container {
+  /* background-color: aqua; */
+  width: 500px;
+  height: 700px;
+  margin: 10px auto;
+  border-radius: 10px;
+  border: 1px solid #cccccc;
+}
+/* =========================== */
+.container img {
+  display: block;
+  width: 95%;
+  margin: 10px auto;
+}
+/* =========================== */
+h3 {
+  display: block;
+  margin-left: 20px;
+}
+/* =========================== */
+.message_class {
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+}
+/* =========================== */
+.send_class {
+  display: block;
+  float: right;
+  margin-top: 10px;
+  margin-right: 20px;
+  font-size: 1em;
+  font-weight: 900;
+}
+/* =========================== */
