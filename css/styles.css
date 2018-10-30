@@ -7,11 +7,12 @@ body {
 /* =========================== */
 .container {
   /* background-color: aqua; */
-  width: 500px;
-  height: 700px;
+  width: 400px;
   margin: 10px auto;
   border-radius: 10px;
   border: 1px solid #cccccc;
+  overflow: auto;
+  padding-bottom: 10px;
 }
 /* =========================== */
 .container img {
@@ -25,18 +26,56 @@ h3 {
   margin-left: 20px;
 }
 /* =========================== */
-.message_class {
+h3.timeline_title {
+  margin-top: 40px;
+}
+/* =========================== */
+.textarea_class {
   display: block;
   width: 90%;
   margin: 0 auto;
+  font-size: 1em;
+  padding: 5px;
 }
 /* =========================== */
-.send_class {
-  display: block;
+.button_class {
   float: right;
   margin-top: 10px;
   margin-right: 20px;
   font-size: 1em;
   font-weight: 900;
+  /* background-color: yellow; */
 }
 /* =========================== */
+.reset_button_class {
+  float: left;
+  margin-left: 20px;
+}
+/* =========================== */
+/* =========================== */
+/* =========================== */
+@media only screen and (max-width: 414px) {
+  .container {
+      width: 95%;
+  }
+}
+/* =========================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
