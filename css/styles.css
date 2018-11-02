@@ -24,6 +24,7 @@ body {
 h3 {
   display: block;
   margin-left: 20px;
+  font-size: 1em;
 }
 /* =========================== */
 h3.timeline_title {
@@ -36,6 +37,8 @@ h3.timeline_title {
   margin: 0 auto;
   font-size: 1em;
   padding: 5px;
+  background-color: #FF265D;
+  color: white;
 }
 /* =========================== */
 .button_class {
